@@ -1,0 +1,54 @@
+{
+  "packages": [
+    {
+      "name": "HoodLoader2",
+      "maintainer": "Virtual-Java",
+      "websiteURL": "https://github.com/Virtual-Java/HoodLoader2",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "HoodLoader2",
+          "architecture": "avr",
+          "version": "2.0.6-lw",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/Virtual-Java/HoodLoader2/archive/refs/tags/2.0.6-lw.zip",
+          "archiveFileName": "2.0.6-lw-boards_manager.zip",
+          "checksum": "SHA-256:fe9b88a9a4519f634213b4d0f825262e0d231201f48c84f7216a2a309485d483",
+          "size": "1869006",
+          "boards": [
+            {"name": "16u2"},
+            {"name": "32u2"},
+            {"name": "8u2"},
+            {"name": "at90usb82"},
+            {"name": "at90usb162"},
+            {"name": "32u4"},
+            {"name": "Uno"},
+            {"name": "Mega 2560"},
+            {"name": "Uno WiFi"},
+            {"name": "Uno WiFi2"}
+
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
